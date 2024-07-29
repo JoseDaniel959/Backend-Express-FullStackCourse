@@ -15,7 +15,6 @@ app.listen(config.PORT, () => {
 //const port = process.env.PORT || 3000
 const cors = require('cors')
 
-//mongodb+srv://danieldaniel98717:admin123@cluster0.xg6myi4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 
 app.use(cors())
 app.use(express.static('build'))
